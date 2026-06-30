@@ -1,0 +1,58 @@
+# =====================================================================
+# ASZED EEG Schizophrenia Classification Pipeline - Dependencies
+# =====================================================================
+# Python >= 3.10 recommended. Install with:
+#     pip install -r requirements.txt
+#
+# For GPU (CUDA) PyTorch, install the matching wheel from
+# https://pytorch.org/get-started/locally/ BEFORE running this file, e.g.:
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# (the unpinned torch/torchvision below resolve to the CPU build otherwise).
+# =====================================================================
+
+# ---- Core scientific stack ----
+numpy>=1.24,<2.0          # tsfresh / numba still prefer numpy<2 in many envs
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+pyarrow>=14.0             # parquet backend for intermediate feature dumps
+tqdm>=4.65
+
+# ---- EEG / signal processing ----
+mne>=1.6                  # .edf loading, filtering, resampling
+PyWavelets>=1.4           # CWT scalograms (pywt)
+
+# ---- Classical feature engineering ----
+tsfresh>=0.20.2           # automated time-series feature extraction
+tslearn>=0.6.3            # LearningShapelets
+
+# ---- Classical models ----
+xgboost>=2.0
+lightgbm>=4.0
+
+# ---- Explainability ----
+shap>=0.44
+
+# ---- Dimensionality reduction / clustering (Module 2) ----
+umap-learn>=0.5.5
+
+# ---- Plotting ----
+matplotlib>=3.7
+seaborn>=0.13
+
+# ---- Deep learning (Module 7) ----
+torch>=2.1
+torchvision>=0.16
+timm>=0.9.12              # ViT / EfficientNet backbones
+torcheeg>=1.1.0           # EEG-Conformer and EEG-specific wrappers
+
+# ---- SOTA time-series foundation model (Module 7, Chronos) ----
+chronos-forecasting>=1.2.0
+# WARNING: do NOT `pip install chronos` (an unrelated v0.3 package). It installs
+# into the same `chronos/` namespace and overwrites chronos-forecasting's
+# __init__.py with an empty file, breaking `from chronos import ChronosPipeline`.
+# If that already happened: `pip uninstall -y chronos && pip install --force-reinstall
+# --no-deps chronos-forecasting`. (Module 7 also imports from chronos.base as a
+# fallback, so it tolerates the clobbered __init__.py.)
+transformers>=4.38
+accelerate>=0.27

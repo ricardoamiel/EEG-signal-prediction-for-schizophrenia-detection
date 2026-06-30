@@ -60,7 +60,10 @@ Las señales EEG serán procesadas usando herramientas como MNE-Python, NumPy, S
 ### 3.2. Transformación de señales en imágenes
 Para los modelos de *deep learning*, las señales temporales se transformarán en imágenes tiempo-frecuencia. Se evaluarán tres representaciones principales:
 
-* **FFT:** permite obtener potencia espectral por canal y banda de frecuencia. Se analizarán bandas delta (0.5–4 Hz), theta (4–8 Hz), alpha (8–13 Hz), beta (13–30 Hz) y gamma baja (30–45 Hz).
+* **FFT:** permite obtener potencia espectral por canal y banda de frecuencia. Se analizaráa frecuencia de línea correspondiente.
+5. Segmentación de las señales en ventanas de duración fija, por ejemplo 2, 5 o 10 segundos.
+6. Normalización por canal mediante z-score.
+7. División de datos en entrenamiento, validación y prueba a nivel de sujeto.n bandas delta (0.5–4 Hz), theta (4–8 Hz), alpha (8–13 Hz), beta (13–30 Hz) y gamma baja (30–45 Hz).
 * **STFT/espectrogramas:** permite representar la evolución temporal del contenido frecuencial de la señal.
 * **Wavelets:** permite generar escalogramas, útiles para señales no estacionarias como EEG.
 

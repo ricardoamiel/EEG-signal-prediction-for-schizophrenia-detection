@@ -1,1 +1,16 @@
 ASZED-153/
+previous_figures/
+tsfresh_temp_cache_minimal/
+tsfresh_temp_cache/
+.eeg/
+__pycache__/
+lesson12.pdf
+previous_versions/
+logs/
+
+# Generated pipeline artifacts (Modules 1-8)
+artifacts/
+main.tex
+theoretical_cheatsheet.tex
+=1.3.0
+pipeline.slurm
