@@ -1,5 +1,8 @@
 # EEG-Based Schizophrenia Detection — Classical ML vs. Deep Networks vs. Time-Series Foundation Models
 
+Manuscript:
+Slides:
+
 A rigorous, **leakage-free** comparative study that classifies schizophrenia
 patients vs. healthy controls from EEG on the public **ASZED** dataset
 (153 subjects). We benchmark three paradigms — hand-crafted `tsfresh` features +
@@ -12,12 +15,12 @@ foundation model — under a strict **subject-wise** partition.
 > and the strongest window-level discrimination (**ROC-AUC = 0.859**) — beating
 > bespoke deep nets *and* exhaustively tuned classical pipelines.
 
-📄 Manuscript: `main.tex` · 📐 Theory appendix: `theoretical_cheatsheet.tex` ·
-🎞️ Slides: `slides.tex`
+Manuscript: `main.tex` · Theory appendix: `theoretical_cheatsheet.tex` ·
+Slides: `slides.tex`
 
 ---
 
-## ✨ Key findings
+## Key findings
 
 - **Subject-wise partition is non-negotiable.** Random window splitting leaks a
   subject's "fingerprint" and inflates scores; we split by **subject** and report
@@ -35,7 +38,7 @@ foundation model — under a strict **subject-wise** partition.
 
 ---
 
-## 📊 Results (TEST set, subject-level, Top-6 montage)
+## Results (TEST set, subject-level, Top-6 montage)
 
 | Model | F1 | ROC-AUC | Balanced Acc |
 |---|:--:|:--:|:--:|
@@ -61,7 +64,7 @@ high). *Right:* SHAP ranking — the most discriminative features are all
 
 ---
 
-## 🧠 Clinical EDA
+## Clinical EDA
 
 <p align="center">
   <img src="figures/fig-connectivity.png" width="55%" alt="Functional connectivity"/>
@@ -75,7 +78,7 @@ high). *Right:* SHAP ranking — the most discriminative features are all
 
 ---
 
-## 🔬 Qualitative analysis
+## Qualitative analysis
 
 <p align="center">
   <img src="figures/fig-qualitative-spectrograms.png" width="80%" alt="Spectrograms controls vs patients"/>
@@ -102,7 +105,7 @@ the optimization-level signature of successful transfer.
 
 ---
 
-## 🏗️ Pipeline
+## Pipeline
 
 Eight standalone, resumable stages. Each reads the previous stage's artifacts
 from disk (`.npy` / `.parquet`), so any script runs independently.
@@ -123,7 +126,7 @@ Feature funnel (Top-6): **4,662 → 1,800 → 1,204 → 51** features.
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 python -m venv .eeg
@@ -132,7 +135,7 @@ pip install -r requirements.txt
 # For GPU PyTorch, install the matching CUDA wheel first (see requirements.txt).
 ```
 
-> ⚠️ Do **not** `pip install chronos` (an unrelated package) — it shadows
+> Do **not** `pip install chronos` (an unrelated package) — it shadows
 > `chronos-forecasting`. See the note in `requirements.txt`.
 
 Place the dataset under `./ASZED-153/` (download from
@@ -140,7 +143,7 @@ Place the dataset under `./ASZED-153/` (download from
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 # Smoke-test end-to-end on 2 subjects first (set DEV_MODE=True in config.py)
@@ -164,9 +167,9 @@ Key flags in `config.py`: `DEV_MODE`, `CHANNEL_SET` (`top6`/`top18`/`all19`),
 
 ---
 
-## 📁 Repository structure
+## Repository structure
 
-```
+```text
 .
 ├── config.py                       # global configuration + shared helpers
 ├── 1_preprocessing.py … 8_evaluation.py
@@ -182,7 +185,7 @@ Key flags in `config.py`: `DEV_MODE`, `CHANNEL_SET` (`top6`/`top18`/`all19`),
 
 ---
 
-## 📌 Reproducibility
+## Reproducibility
 
 Fixed seeds (`RANDOM_STATE=42`), strict subject-wise split, and per-configuration
 artifacts (`top6_*`, `top18_*`) reproduce the reported tables exactly. The
@@ -191,7 +194,7 @@ incremental.
 
 ---
 
-## 📚 Citation
+## Citation
 
 ```bibtex
 @misc{acuna_velo_2026_eeg_schizophrenia,
@@ -204,12 +207,12 @@ incremental.
 }
 ```
 
-## 👥 Authors
+## Authors
 
 - **Ricardo Amiel Acuña Villogas** — UTEC, Data Science · [ORCID 0009-0005-7543-2232](https://orcid.org/0009-0005-7543-2232) · ricardo.acuna@utec.edu.pe
 - **Josué Nehemías Velo Poma** — UTEC, Data Science · josue.velo@utec.edu.pe
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Department of Data Science, UTEC — *Time Series* course. Dataset: ASZED (African
 Schizophrenia EEG Dataset), Zenodo.
