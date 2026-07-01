@@ -1,7 +1,7 @@
 # EEG-Based Schizophrenia Detection — Classical ML vs. Deep Networks vs. Time-Series Foundation Models
 
-Manuscript: https://drive.google.com/file/d/1cg_CIxQQpPPugyrfF2vh7xc-aLpsAomD/view?usp=sharing \
-Slides: https://drive.google.com/file/d/1bTMYTI43x_VspwsefKbqjp8EedtLq6Al/view?usp=sharing
+Manuscript: https://drive.google.com/file/d/1b1fbSniQHZQXj3M5ljTFzeVOEa3I1IpN/view?usp=sharing \
+Slides: https://drive.google.com/file/d/18dqBxCaQM8dymecpaC7U8Mjc5Nzr_hli/view?usp=sharing
 
 A rigorous, **leakage-free** comparative study that classifies schizophrenia
 patients vs. healthy controls from EEG on the public **ASZED** dataset
