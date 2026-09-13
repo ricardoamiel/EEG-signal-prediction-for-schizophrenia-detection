@@ -1,0 +1,81 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+================================================================
+ PHASE 7 - DEEP LEARNING (SOTA)  device=cuda | reprs=['stft']
+================================================================
+
+[INFO] STFT input: (4333, 18, 23, 21) (C=18)
+
+[*] CNN-STFT
+    epoch 01 | train=0.5399 | val=0.5066
+    epoch 02 | train=0.4436 | val=0.4982
+    epoch 03 | train=0.3659 | val=0.5998
+    epoch 04 | train=0.3193 | val=0.6096
+    epoch 05 | train=0.2835 | val=0.6301
+    epoch 06 | train=0.2657 | val=0.8302
+    epoch 07 | train=0.2571 | val=0.7921
+    epoch 08 | train=0.2509 | val=0.6952
+    early stop at epoch 8
+[CNN-STFT] Acc=0.760 | F1=0.723 | ROC-AUC=0.826 | Sens=0.714 | Spec=0.795
+
+[*] ResNet18-STFT
+    epoch 01 | train=0.5444 | val=0.4119
+    epoch 02 | train=0.3270 | val=0.5401
+    epoch 03 | train=0.2457 | val=0.5410
+    epoch 04 | train=0.2070 | val=0.5546
+    epoch 05 | train=0.1798 | val=0.6725
+    epoch 06 | train=0.1484 | val=0.6956
+    epoch 07 | train=0.1537 | val=0.6832
+    early stop at epoch 7
+[ResNet18-STFT] Acc=0.804 | F1=0.796 | ROC-AUC=0.884 | Sens=0.872 | Spec=0.750
+
+[*] ViT-STFT
+    epoch 01 | train=0.5215 | val=0.4256
+    epoch 02 | train=0.4116 | val=0.4925
+    epoch 03 | train=0.3612 | val=0.4741
+    epoch 04 | train=0.3398 | val=0.4097
+    epoch 05 | train=0.3204 | val=0.4072
+    epoch 06 | train=0.3124 | val=0.3991
+    epoch 07 | train=0.2841 | val=0.4667
+    epoch 08 | train=0.2658 | val=0.4706
+    epoch 09 | train=0.2437 | val=0.4921
+    epoch 10 | train=0.2411 | val=0.5190
+    epoch 11 | train=0.2293 | val=0.6180
+    epoch 12 | train=0.2097 | val=0.6717
+    early stop at epoch 12
+[ViT-STFT] Acc=0.810 | F1=0.808 | ROC-AUC=0.886 | Sens=0.906 | Spec=0.736
+
+[*] EfficientNet-STFT
+    epoch 01 | train=1.5560 | val=0.7127
+    epoch 02 | train=0.4666 | val=0.6010
+    epoch 03 | train=0.2737 | val=0.6946
+    epoch 04 | train=0.2207 | val=0.6902
+    epoch 05 | train=0.2611 | val=0.5878
+    epoch 06 | train=0.2325 | val=0.5974
+    epoch 07 | train=0.1696 | val=0.6630
+    epoch 08 | train=0.1343 | val=0.7328
+    epoch 09 | train=0.1521 | val=0.6732
+    epoch 10 | train=0.1684 | val=0.6271
+    epoch 11 | train=0.1847 | val=1.0230
+    early stop at epoch 11
+[EfficientNet-STFT] Acc=0.798 | F1=0.786 | ROC-AUC=0.885 | Sens=0.845 | Spec=0.762
+
+[*] EEG-Conformer
+    epoch 01 | train=0.5650 | val=0.6562
+    epoch 02 | train=0.4095 | val=0.6588
+    epoch 03 | train=0.3419 | val=0.5736
+    epoch 04 | train=0.3334 | val=0.4254
+    epoch 05 | train=0.2620 | val=0.8370
+    epoch 06 | train=0.2674 | val=0.4411
+    epoch 07 | train=0.2511 | val=0.8866
+    epoch 08 | train=0.2284 | val=0.7433
+    epoch 09 | train=0.2685 | val=0.5711
+    epoch 10 | train=0.1997 | val=0.5478
+    early stop at epoch 10
+[EEG-Conformer] Acc=0.810 | F1=0.811 | ROC-AUC=0.904 | Sens=0.927 | Spec=0.719
+Loading weights:   0%|          | 0/131 [00:00<?, ?it/s]Loading weights:  80%|████████  | 105/131 [00:00<00:00, 1039.40it/s]Loading weights: 100%|██████████| 131/131 [00:00<00:00, 1001.29it/s]
+[Chronos] embedding 800 train / 800 test windows...
+[Chronos] Acc=0.800 | F1=0.784 | ROC-AUC=0.856 | Sens=0.831 | Spec=0.776
+
+[✓] DL models done: ['CNN-STFT', 'ResNet18-STFT', 'ViT-STFT', 'EfficientNet-STFT', 'EEG-Conformer', 'Chronos']
+[✓] TEST predictions -> /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/08_evaluation/predictions
+================================================================

@@ -1,0 +1,19 @@
+================================================================
+ PHASE 5 - TIME-FREQUENCY TRANSFORMS
+   STFT/FFT montage: ['Fp1', 'Fp2', 'F7', 'F3', 'Fz', 'F4', 'F8', 'T3', 'C3', 'C4', 'T4', 'T5', 'P3', 'Pz', 'P4', 'T6', 'O1', 'O2']
+   CWT montage (cost-limited): ['F4', 'F3', 'F7', 'T3', 'T4', 'Fp1']
+================================================================
+[FFT]  train: spectra=(4333, 18, 223), bandpow=(4333, 18, 5)
+[STFT] train: (4333, 18, 23, 21)
+[FFT]  val: spectra=(749, 18, 223), bandpow=(749, 18, 5)
+[STFT] val: (749, 18, 23, 21)
+[FFT]  test: spectra=(864, 18, 223), bandpow=(864, 18, 5)
+[STFT] test: (864, 18, 23, 21)
+[STFT] normalised (log1p+zscore, train stats): train=(4333, 18, 23, 21)
+[CWT]  train: (4333, 6, 40, 1250)
+[CWT]  val: (749, 6, 40, 1250)
+[CWT]  test: (864, 6, 40, 1250)
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/05_time_frequency/top18_sample_timefrequency.pdf
+
+[✓] Time-frequency artifacts written to: /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/05_time_frequency
+================================================================

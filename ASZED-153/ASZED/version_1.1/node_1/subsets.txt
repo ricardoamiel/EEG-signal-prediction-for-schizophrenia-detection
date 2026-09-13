@@ -1,0 +1,12 @@
+subset_1: 
+ 	 protocol: 1.1 
+ 	 Arithmetic Annotation: 0 
+ 	 EEG Device: CONTEK-KT2400 
+subset_2: 
+ 	 protocol: 1.2 
+ 	 Arithmetic Annotation: 1 
+ 	 EEG Device: DISCOVERY-24E 
+subset_3: 
+ 	 protocol: 1.2 
+ 	 Arithmetic Annotation: 0 
+ 	 EEG Device: DISCOVERY-24E 

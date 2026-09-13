@@ -1,0 +1,17 @@
+================================================================
+ PHASE 4 - FEATURE SELECTION FUNNEL
+================================================================
+[INFO] raw features: train=(4333, 13986)
+[LightGBM] [Fatal] Do not support special JSON characters in feature name.
+[1] tsfresh relevance: 13986 -> 5455
+[2] variance > 0.0: 5455 -> 5455
+[3] correlation < 0.85: 5455 -> 3666 (dropped 1789)
+[4] LightGBM SHAP failed (Do not support special JSON characters in feature name.); skipping that model.
+[4] RandomForest SHAP: OK
+[5] SHAP threshold >= 0.1: 3666 -> 89
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/04_feature_selection/top18_shap_importance.pdf
+[6] 89 <= 100 features; PCA not needed.
+
+[✓] Funnel: raw:13986 -> tsfresh_relevance:5455 -> variance:5455 -> correlation:3666 -> shap_selection:89 -> after_pca:89
+[✓] Selected-feature artifacts written to: /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/04_feature_selection
+================================================================

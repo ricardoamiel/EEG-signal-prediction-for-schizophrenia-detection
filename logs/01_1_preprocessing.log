@@ -1,0 +1,32 @@
+================================================================
+ PHASE 1 - EEG PREPROCESSING
+================================================================
+[✓] Metadata mapped: 153 subjects in master CSV.
+
+[*] Loading and preprocessing recordings...
+[INFO] .edf files processed: 1932
+[INFO] Discarded files by reason:
+   - recording too short (1000 samples): 10
+   - recording too short (250 samples): 1
+
+================================================================
+[✓] X (windows, channels, samples): (5946, 19, 1250)
+[✓] Controls (class 0): 2946 windows | Patients (class 1): 3000 windows
+[✓] Unique subjects: 153
+
+[✓] Subject-level split:
+    train: windows=  4333 | class1_ratio=0.529
+    val  : windows=   749 | class1_ratio=0.439
+    test : windows=   864 | class1_ratio=0.436
+
+[✓] Channel ranking (top by PSD t-test):
+channel        p_psd         p_var  rank_psd
+     F3 4.402290e-59 9.527763e-133       1.0
+    Fp2 5.744544e-58  5.350509e-83       2.0
+     T4 4.229024e-57  3.686496e-76       3.0
+     T6 6.419592e-57  1.810887e-77       4.0
+     O2 1.910600e-55  1.403485e-59       5.0
+     P4 3.688360e-55  6.959052e-54       6.0
+
+[✓] All artifacts written to: /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/01_preprocessing
+================================================================

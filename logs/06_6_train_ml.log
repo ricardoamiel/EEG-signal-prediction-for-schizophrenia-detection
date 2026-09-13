@@ -1,0 +1,26 @@
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/sklearn/svm/_base.py:239: FutureWarning: The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`
+  warnings.warn(
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+================================================================
+ PHASE 6 - CLASSICAL ML TRAINING
+================================================================
+[INFO] features: train=(4333, 89) | classes train: [2039 2294]
+[LogisticRegression] Acc=0.701 | F1=0.713 | ROC-AUC=0.775 | Sens=0.845 | Spec=0.588
+[SVM] Acc=0.744 | F1=0.750 | ROC-AUC=0.841 | Sens=0.875 | Spec=0.640
+[RandomForest] Acc=0.816 | F1=0.807 | ROC-AUC=0.898 | Sens=0.878 | Spec=0.767
+[XGBoost] Acc=0.813 | F1=0.809 | ROC-AUC=0.917 | Sens=0.903 | Spec=0.743
+[LightGBM] Acc=0.826 | F1=0.822 | ROC-AUC=0.928 | Sens=0.912 | Spec=0.760
+[SHAP] summary failed (could not convert string to float: '[5.294253E-1]'); continuing.
+
+[*] Generating TEST predictions for Module 8...
+
+[✓] 5 models trained. Artifacts -> /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/06_ml_models
+[✓] TEST predictions -> /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/08_evaluation/predictions
+================================================================

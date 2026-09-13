@@ -1,0 +1,35 @@
+SITES:
+  OAUTHC_IFE_ILESA: 1
+  UNILORIN: 2
+  1: OAUTHC_IFE_ILESA
+  2: UNILORIN
+
+DEVICE:
+  CONTEK-KT2400: 1
+  DISCOVERY-24E: 2
+  1: CONTEK-KT2400
+  2: DISCOVERY-24E
+
+PROTOCOL:
+  '1.1':
+    - Rest
+    - Arithmetic Task
+    - Rest
+    - Auditory Oddball Task
+  '1.2':
+    - Rest
+    - Fixed Auditory Stimulus
+    - Arithmetic Task
+    - Rest
+    - Auditory Oddball task
+
+ANNOTATION:
+  ARITHMETIC:
+    '0': 
+      - None
+      - Phase Start
+      - Phase End
+    '1':
+      - Start Task
+      - Task Done
+      - Repeat

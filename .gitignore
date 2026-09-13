@@ -1,4 +1,4 @@
-ASZED-153/
+
 previous_figures/
 tsfresh_temp_cache_minimal/
 tsfresh_temp_cache/
@@ -6,7 +6,6 @@ tsfresh_temp_cache/
 __pycache__/
 lesson12.pdf
 previous_versions/
-logs/
 
 # Generated pipeline artifacts (Modules 1-8)
 artifacts/

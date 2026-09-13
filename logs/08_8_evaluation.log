@@ -1,0 +1,75 @@
+================================================================
+ PHASE 8 - FINAL EVALUATION (TEST set)
+================================================================
+[INFO] models found: ['CNN-STFT', 'Chronos', 'EEG-Conformer', 'EfficientNet-STFT', 'LightGBM', 'LogisticRegression', 'RandomForest', 'ResNet18-STFT', 'SVM', 'ViT-STFT', 'XGBoost']
+
+[CNN-STFT] Acc=0.729 | F1=0.704 | ROC-AUC=0.787 | Sens=0.737 | Spec=0.723
+[Chronos] Acc=0.800 | F1=0.784 | ROC-AUC=0.856 | Sens=0.831 | Spec=0.776
+[EEG-Conformer] Acc=0.705 | F1=0.714 | ROC-AUC=0.689 | Sens=0.844 | Spec=0.598
+[EfficientNet-STFT] Acc=0.721 | F1=0.725 | ROC-AUC=0.720 | Sens=0.841 | Spec=0.628
+[LightGBM] Acc=0.705 | F1=0.695 | ROC-AUC=0.694 | Sens=0.769 | Spec=0.655
+[LogisticRegression] Acc=0.659 | F1=0.657 | ROC-AUC=0.674 | Sens=0.751 | Spec=0.587
+[RandomForest] Acc=0.700 | F1=0.691 | ROC-AUC=0.740 | Sens=0.767 | Spec=0.649
+[ResNet18-STFT] Acc=0.727 | F1=0.734 | ROC-AUC=0.776 | Sens=0.862 | Spec=0.622
+[SVM] Acc=0.667 | F1=0.652 | ROC-AUC=0.724 | Sens=0.716 | Spec=0.628
+[ViT-STFT] Acc=0.709 | F1=0.735 | ROC-AUC=0.712 | Sens=0.923 | Spec=0.544
+[XGBoost] Acc=0.691 | F1=0.679 | ROC-AUC=0.677 | Sens=0.748 | Spec=0.647
+
+================================================================
+ WINDOW-LEVEL RESULTS
+================================================================
+                    Accuracy  Precision  Recall (Sensitivity)  Specificity  F1-Score  ROC-AUC  Balanced Accuracy
+Chronos                0.800      0.742                 0.831        0.776     0.784    0.856              0.803
+ViT-STFT               0.709      0.611                 0.923        0.544     0.735    0.712              0.734
+ResNet18-STFT          0.727      0.639                 0.862        0.622     0.734    0.776              0.742
+EfficientNet-STFT      0.721      0.637                 0.841        0.628     0.725    0.720              0.735
+EEG-Conformer          0.705      0.619                 0.844        0.598     0.714    0.689              0.721
+CNN-STFT               0.729      0.673                 0.737        0.723     0.704    0.787              0.730
+LightGBM               0.705      0.633                 0.769        0.655     0.695    0.694              0.712
+RandomForest           0.700      0.628                 0.767        0.649     0.691    0.740              0.708
+XGBoost                0.691      0.621                 0.748        0.647     0.679    0.677              0.697
+LogisticRegression     0.659      0.585                 0.751        0.587     0.657    0.674              0.669
+SVM                    0.667      0.599                 0.716        0.628     0.652    0.724              0.672
+[✓] window CSV -> /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/08_evaluation/top18_comparacion_final_modelos_SOTA.csv
+[✓] window CSV -> /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/top18_comparacion_final_modelos_SOTA.csv
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/08_evaluation/top18_matrices_confusion_finales_SOTA.pdf
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/top18_matrices_confusion_finales_SOTA.pdf
+[✓] Best (window) by F1-Score: Chronos (F1=0.784)
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/08_evaluation/top18_pred_vs_truth_window.pdf
+
+[*] Aggregating to subject level...
+[CNN-STFT [subj n=23]] Acc=0.739 | F1=0.750 | ROC-AUC=0.841 | Sens=0.818 | Spec=0.667
+[Chronos [subj n=23]] Acc=0.826 | F1=0.846 | ROC-AUC=0.826 | Sens=1.000 | Spec=0.667
+[EEG-Conformer [subj n=23]] Acc=0.783 | F1=0.800 | ROC-AUC=0.773 | Sens=0.909 | Spec=0.667
+[EfficientNet-STFT [subj n=23]] Acc=0.739 | F1=0.769 | ROC-AUC=0.780 | Sens=0.909 | Spec=0.583
+[LightGBM [subj n=23]] Acc=0.652 | F1=0.692 | ROC-AUC=0.705 | Sens=0.818 | Spec=0.500
+[LogisticRegression [subj n=23]] Acc=0.652 | F1=0.692 | ROC-AUC=0.765 | Sens=0.818 | Spec=0.500
+[RandomForest [subj n=23]] Acc=0.696 | F1=0.720 | ROC-AUC=0.674 | Sens=0.818 | Spec=0.583
+[ResNet18-STFT [subj n=23]] Acc=0.739 | F1=0.769 | ROC-AUC=0.841 | Sens=0.909 | Spec=0.583
+[SVM [subj n=23]] Acc=0.696 | F1=0.720 | ROC-AUC=0.735 | Sens=0.818 | Spec=0.583
+[ViT-STFT [subj n=23]] Acc=0.696 | F1=0.741 | ROC-AUC=0.727 | Sens=0.909 | Spec=0.500
+[XGBoost [subj n=23]] Acc=0.652 | F1=0.692 | ROC-AUC=0.689 | Sens=0.818 | Spec=0.500
+
+================================================================
+ SUBJECT-LEVEL RESULTS
+================================================================
+                    Accuracy  Precision  Recall (Sensitivity)  Specificity  F1-Score  ROC-AUC  Balanced Accuracy
+Chronos                0.826      0.733                 1.000        0.667     0.846    0.826              0.833
+EEG-Conformer          0.783      0.714                 0.909        0.667     0.800    0.773              0.788
+EfficientNet-STFT      0.739      0.667                 0.909        0.583     0.769    0.780              0.746
+ResNet18-STFT          0.739      0.667                 0.909        0.583     0.769    0.841              0.746
+CNN-STFT               0.739      0.692                 0.818        0.667     0.750    0.841              0.742
+ViT-STFT               0.696      0.625                 0.909        0.500     0.741    0.727              0.705
+RandomForest           0.696      0.643                 0.818        0.583     0.720    0.674              0.701
+SVM                    0.696      0.643                 0.818        0.583     0.720    0.735              0.701
+LightGBM               0.652      0.600                 0.818        0.500     0.692    0.705              0.659
+LogisticRegression     0.652      0.600                 0.818        0.500     0.692    0.765              0.659
+XGBoost                0.652      0.600                 0.818        0.500     0.692    0.689              0.659
+[✓] subject CSV -> /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/08_evaluation/top18_comparacion_final_modelos_SOTA_subject.csv
+[✓] subject CSV -> /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/top18_comparacion_final_modelos_SOTA_subject.csv
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/08_evaluation/top18_matrices_confusion_finales_SOTA_subject.pdf
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/top18_matrices_confusion_finales_SOTA_subject.pdf
+[✓] Best (subject) by F1-Score: Chronos (F1=0.846)
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/08_evaluation/top18_pred_vs_truth_subject.pdf
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/top18_pred_vs_truth_subject.pdf
+================================================================

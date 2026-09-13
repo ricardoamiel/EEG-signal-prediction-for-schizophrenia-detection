@@ -1,0 +1,161 @@
+================================================================
+ PHASE 3 - FEATURE EXTRACTION  (montage='top18': ['Fp1', 'Fp2', 'F7', 'F3', 'Fz', 'F4', 'F8', 'T3', 'C3', 'C4', 'T4', 'T5', 'P3', 'Pz', 'P4', 'T6', 'O1', 'O2'])
+================================================================
+[INFO] tsfresh set=efficient, n_jobs=4
+tsfresh (train):   0%|          | 0/18 [00:00<?, ?ch/s]tsfresh (train) - Fp1:   0%|          | 0/18 [00:00<?, ?ch/s]tsfresh (train) - Fp1:   0%|          | 0/18 [00:00<?, ?ch/s, cache (777 feats)]tsfresh (train) - Fp1:   6%|▌         | 1/18 [00:00<00:02,  7.77ch/s, cache (777 feats)]tsfresh (train) - Fp2:   6%|▌         | 1/18 [00:00<00:02,  7.77ch/s, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['Fp2__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - Fp2:   6%|▌         | 1/18 [06:00<00:02,  7.77ch/s, 777 feats (360.5s)]tsfresh (train) - Fp2:  11%|█         | 2/18 [06:00<56:34, 212.13s/ch, 777 feats (360.5s)]tsfresh (train) - F7:  11%|█         | 2/18 [06:00<56:34, 212.13s/ch, 777 feats (360.5s)] tsfresh (train) - F7:  11%|█         | 2/18 [06:00<56:34, 212.13s/ch, cache (777 feats)] tsfresh (train) - F3:  11%|█         | 2/18 [06:00<56:34, 212.13s/ch, cache (777 feats)]tsfresh (train) - F3:  11%|█         | 2/18 [06:00<56:34, 212.13s/ch, cache (777 feats)]tsfresh (train) - F3:  22%|██▏       | 4/18 [06:00<18:28, 79.17s/ch, cache (777 feats)] tsfresh (train) - Fz:  22%|██▏       | 4/18 [06:00<18:28, 79.17s/ch, cache (777 feats)]tsfresh (train) - Fz:  22%|██▏       | 4/18 [06:20<18:28, 79.17s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['Fz__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - Fz:  22%|██▏       | 4/18 [12:00<18:28, 79.17s/ch, 777 feats (359.6s)]tsfresh (train) - Fz:  28%|██▊       | 5/18 [12:00<35:56, 165.91s/ch, 777 feats (359.6s)]tsfresh (train) - F4:  28%|██▊       | 5/18 [12:00<35:56, 165.91s/ch, 777 feats (359.6s)]tsfresh (train) - F4:  28%|██▊       | 5/18 [12:00<35:56, 165.91s/ch, cache (777 feats)] tsfresh (train) - F8:  28%|██▊       | 5/18 [12:00<35:56, 165.91s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['F8__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - F8:  28%|██▊       | 5/18 [17:17<35:56, 165.91s/ch, 777 feats (316.8s)]tsfresh (train) - F8:  39%|███▉      | 7/18 [17:17<29:46, 162.41s/ch, 777 feats (316.8s)]tsfresh (train) - T3:  39%|███▉      | 7/18 [17:17<29:46, 162.41s/ch, 777 feats (316.8s)]tsfresh (train) - T3:  39%|███▉      | 7/18 [17:17<29:46, 162.41s/ch, cache (777 feats)] tsfresh (train) - C3:  39%|███▉      | 7/18 [17:17<29:46, 162.41s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['C3__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - C3:  39%|███▉      | 7/18 [24:22<29:46, 162.41s/ch, 777 feats (425.0s)]tsfresh (train) - C3:  50%|█████     | 9/18 [24:22<27:22, 182.52s/ch, 777 feats (425.0s)]tsfresh (train) - C4:  50%|█████     | 9/18 [24:22<27:22, 182.52s/ch, 777 feats (425.0s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['C4__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - C4:  50%|█████     | 9/18 [30:18<27:22, 182.52s/ch, 777 feats (355.9s)]tsfresh (train) - C4:  56%|█████▌    | 10/18 [30:18<29:29, 221.13s/ch, 777 feats (355.9s)]tsfresh (train) - T4:  56%|█████▌    | 10/18 [30:18<29:29, 221.13s/ch, 777 feats (355.9s)]tsfresh (train) - T4:  56%|█████▌    | 10/18 [30:18<29:29, 221.13s/ch, cache (777 feats)] tsfresh (train) - T4:  61%|██████    | 11/18 [30:18<19:34, 167.80s/ch, cache (777 feats)]tsfresh (train) - T5:  61%|██████    | 11/18 [30:18<19:34, 167.80s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['T5__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - T5:  61%|██████    | 11/18 [35:46<19:34, 167.80s/ch, 777 feats (327.6s)]tsfresh (train) - T5:  67%|██████▋   | 12/18 [35:46<20:52, 208.79s/ch, 777 feats (327.6s)]tsfresh (train) - P3:  67%|██████▋   | 12/18 [35:46<20:52, 208.79s/ch, 777 feats (327.6s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['P3__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - P3:  67%|██████▋   | 12/18 [41:14<20:52, 208.79s/ch, 777 feats (328.1s)]tsfresh (train) - P3:  72%|███████▏  | 13/18 [41:14<20:03, 240.78s/ch, 777 feats (328.1s)]tsfresh (train) - Pz:  72%|███████▏  | 13/18 [41:14<20:03, 240.78s/ch, 777 feats (328.1s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['Pz__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - Pz:  72%|███████▏  | 13/18 [46:43<20:03, 240.78s/ch, 777 feats (329.4s)]tsfresh (train) - Pz:  78%|███████▊  | 14/18 [46:43<17:41, 265.32s/ch, 777 feats (329.4s)]tsfresh (train) - P4:  78%|███████▊  | 14/18 [46:43<17:41, 265.32s/ch, 777 feats (329.4s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['P4__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - P4:  78%|███████▊  | 14/18 [52:15<17:41, 265.32s/ch, 777 feats (331.9s)]tsfresh (train) - P4:  83%|████████▎ | 15/18 [52:15<14:12, 284.18s/ch, 777 feats (331.9s)]tsfresh (train) - T6:  83%|████████▎ | 15/18 [52:15<14:12, 284.18s/ch, 777 feats (331.9s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['T6__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - T6:  83%|████████▎ | 15/18 [57:46<14:12, 284.18s/ch, 777 feats (331.1s)]tsfresh (train) - T6:  89%|████████▉ | 16/18 [57:46<09:55, 297.72s/ch, 777 feats (331.1s)]tsfresh (train) - O1:  89%|████████▉ | 16/18 [57:46<09:55, 297.72s/ch, 777 feats (331.1s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['O1__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - O1:  89%|████████▉ | 16/18 [1:03:15<09:55, 297.72s/ch, 777 feats (329.1s)]tsfresh (train) - O1:  94%|█████████▍| 17/18 [1:03:15<05:06, 306.88s/ch, 777 feats (329.1s)]tsfresh (train) - O2:  94%|█████████▍| 17/18 [1:03:15<05:06, 306.88s/ch, 777 feats (329.1s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['O2__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (train) - O2:  94%|█████████▍| 17/18 [1:08:44<05:06, 306.88s/ch, 777 feats (328.7s)]tsfresh (train) - O2: 100%|██████████| 18/18 [1:08:44<00:00, 313.30s/ch, 777 feats (328.7s)]tsfresh (train) - O2: 100%|██████████| 18/18 [1:08:44<00:00, 229.13s/ch, 777 feats (328.7s)]
+[train] concatenating 18 channels...
+[train] -> 4333 windows x 13986 features
+tsfresh (val):   0%|          | 0/18 [00:00<?, ?ch/s]tsfresh (val) - Fp1:   0%|          | 0/18 [00:00<?, ?ch/s]tsfresh (val) - Fp1:   0%|          | 0/18 [00:00<?, ?ch/s, cache (777 feats)]tsfresh (val) - Fp2:   0%|          | 0/18 [00:00<?, ?ch/s, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['Fp2__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - Fp2:   0%|          | 0/18 [00:57<?, ?ch/s, 777 feats (57.0s)]tsfresh (val) - Fp2:  11%|█         | 2/18 [00:57<07:36, 28.53s/ch, 777 feats (57.0s)]tsfresh (val) - F7:  11%|█         | 2/18 [00:57<07:36, 28.53s/ch, 777 feats (57.0s)] tsfresh (val) - F7:  11%|█         | 2/18 [00:57<07:36, 28.53s/ch, cache (777 feats)]tsfresh (val) - F3:  11%|█         | 2/18 [00:57<07:36, 28.53s/ch, cache (777 feats)]tsfresh (val) - F3:  11%|█         | 2/18 [00:57<07:36, 28.53s/ch, cache (777 feats)]tsfresh (val) - Fz:  11%|█         | 2/18 [00:57<07:36, 28.53s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['Fz__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - Fz:  11%|█         | 2/18 [01:55<07:36, 28.53s/ch, 777 feats (58.3s)]tsfresh (val) - Fz:  28%|██▊       | 5/18 [01:55<04:50, 22.34s/ch, 777 feats (58.3s)]tsfresh (val) - F4:  28%|██▊       | 5/18 [01:55<04:50, 22.34s/ch, 777 feats (58.3s)]tsfresh (val) - F4:  28%|██▊       | 5/18 [01:55<04:50, 22.34s/ch, cache (777 feats)]tsfresh (val) - F8:  28%|██▊       | 5/18 [01:55<04:50, 22.34s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['F8__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - F8:  28%|██▊       | 5/18 [02:54<04:50, 22.34s/ch, 777 feats (58.7s)]tsfresh (val) - F8:  39%|███▉      | 7/18 [02:54<04:36, 25.11s/ch, 777 feats (58.7s)]tsfresh (val) - T3:  39%|███▉      | 7/18 [02:54<04:36, 25.11s/ch, 777 feats (58.7s)]tsfresh (val) - T3:  39%|███▉      | 7/18 [02:54<04:36, 25.11s/ch, cache (777 feats)]tsfresh (val) - C3:  39%|███▉      | 7/18 [02:54<04:36, 25.11s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['C3__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - C3:  39%|███▉      | 7/18 [03:52<04:36, 25.11s/ch, 777 feats (58.5s)]tsfresh (val) - C3:  50%|█████     | 9/18 [03:52<03:59, 26.61s/ch, 777 feats (58.5s)]tsfresh (val) - C4:  50%|█████     | 9/18 [03:52<03:59, 26.61s/ch, 777 feats (58.5s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['C4__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - C4:  50%|█████     | 9/18 [04:51<03:59, 26.61s/ch, 777 feats (58.8s)]tsfresh (val) - C4:  56%|█████▌    | 10/18 [04:51<04:25, 33.18s/ch, 777 feats (58.8s)]tsfresh (val) - T4:  56%|█████▌    | 10/18 [04:51<04:25, 33.18s/ch, 777 feats (58.8s)]tsfresh (val) - T4:  56%|█████▌    | 10/18 [04:51<04:25, 33.18s/ch, cache (777 feats)]tsfresh (val) - T5:  56%|█████▌    | 10/18 [04:51<04:25, 33.18s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['T5__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - T5:  56%|█████▌    | 10/18 [05:48<04:25, 33.18s/ch, 777 feats (57.2s)]tsfresh (val) - T5:  67%|██████▋   | 12/18 [05:48<03:09, 31.50s/ch, 777 feats (57.2s)]tsfresh (val) - P3:  67%|██████▋   | 12/18 [05:48<03:09, 31.50s/ch, 777 feats (57.2s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['P3__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - P3:  67%|██████▋   | 12/18 [06:46<03:09, 31.50s/ch, 777 feats (57.7s)]tsfresh (val) - P3:  72%|███████▏  | 13/18 [06:46<03:04, 36.97s/ch, 777 feats (57.7s)]tsfresh (val) - Pz:  72%|███████▏  | 13/18 [06:46<03:04, 36.97s/ch, 777 feats (57.7s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['Pz__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - Pz:  72%|███████▏  | 13/18 [07:43<03:04, 36.97s/ch, 777 feats (57.2s)]tsfresh (val) - Pz:  78%|███████▊  | 14/18 [07:43<02:46, 41.61s/ch, 777 feats (57.2s)]tsfresh (val) - P4:  78%|███████▊  | 14/18 [07:43<02:46, 41.61s/ch, 777 feats (57.2s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['P4__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - P4:  78%|███████▊  | 14/18 [08:42<02:46, 41.61s/ch, 777 feats (58.8s)]tsfresh (val) - P4:  83%|████████▎ | 15/18 [08:42<02:17, 45.86s/ch, 777 feats (58.8s)]tsfresh (val) - T6:  83%|████████▎ | 15/18 [08:42<02:17, 45.86s/ch, 777 feats (58.8s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['T6__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - T6:  83%|████████▎ | 15/18 [09:39<02:17, 45.86s/ch, 777 feats (57.3s)]tsfresh (val) - T6:  89%|████████▉ | 16/18 [09:39<01:37, 48.83s/ch, 777 feats (57.3s)]tsfresh (val) - O1:  89%|████████▉ | 16/18 [09:39<01:37, 48.83s/ch, 777 feats (57.3s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['O1__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - O1:  89%|████████▉ | 16/18 [10:39<01:37, 48.83s/ch, 777 feats (59.7s)]tsfresh (val) - O1:  94%|█████████▍| 17/18 [10:39<00:51, 51.78s/ch, 777 feats (59.7s)]tsfresh (val) - O2:  94%|█████████▍| 17/18 [10:39<00:51, 51.78s/ch, 777 feats (59.7s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['O2__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (val) - O2:  94%|█████████▍| 17/18 [11:36<00:51, 51.78s/ch, 777 feats (57.5s)]tsfresh (val) - O2: 100%|██████████| 18/18 [11:36<00:00, 53.38s/ch, 777 feats (57.5s)]tsfresh (val) - O2: 100%|██████████| 18/18 [11:36<00:00, 38.72s/ch, 777 feats (57.5s)]
+[val] concatenating 18 channels...
+[val] -> 749 windows x 13986 features
+tsfresh (test):   0%|          | 0/18 [00:00<?, ?ch/s]tsfresh (test) - Fp1:   0%|          | 0/18 [00:00<?, ?ch/s]tsfresh (test) - Fp1:   0%|          | 0/18 [00:00<?, ?ch/s, cache (777 feats)]tsfresh (test) - Fp2:   0%|          | 0/18 [00:00<?, ?ch/s, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['Fp2__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - Fp2:   0%|          | 0/18 [01:05<?, ?ch/s, 777 feats (65.6s)]tsfresh (test) - Fp2:  11%|█         | 2/18 [01:05<08:45, 32.82s/ch, 777 feats (65.6s)]tsfresh (test) - F7:  11%|█         | 2/18 [01:05<08:45, 32.82s/ch, 777 feats (65.6s)] tsfresh (test) - F7:  11%|█         | 2/18 [01:05<08:45, 32.82s/ch, cache (777 feats)]tsfresh (test) - F3:  11%|█         | 2/18 [01:05<08:45, 32.82s/ch, cache (777 feats)]tsfresh (test) - F3:  11%|█         | 2/18 [01:05<08:45, 32.82s/ch, cache (777 feats)]tsfresh (test) - Fz:  11%|█         | 2/18 [01:05<08:45, 32.82s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['Fz__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - Fz:  11%|█         | 2/18 [02:12<08:45, 32.82s/ch, 777 feats (67.0s)]tsfresh (test) - Fz:  28%|██▊       | 5/18 [02:12<05:33, 25.69s/ch, 777 feats (67.0s)]tsfresh (test) - F4:  28%|██▊       | 5/18 [02:12<05:33, 25.69s/ch, 777 feats (67.0s)]tsfresh (test) - F4:  28%|██▊       | 5/18 [02:12<05:33, 25.69s/ch, cache (777 feats)]tsfresh (test) - F8:  28%|██▊       | 5/18 [02:12<05:33, 25.69s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['F8__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - F8:  28%|██▊       | 5/18 [03:17<05:33, 25.69s/ch, 777 feats (64.3s)]tsfresh (test) - F8:  39%|███▉      | 7/18 [03:17<05:10, 28.24s/ch, 777 feats (64.3s)]tsfresh (test) - T3:  39%|███▉      | 7/18 [03:17<05:10, 28.24s/ch, 777 feats (64.3s)]tsfresh (test) - T3:  39%|███▉      | 7/18 [03:17<05:10, 28.24s/ch, cache (777 feats)]tsfresh (test) - C3:  39%|███▉      | 7/18 [03:17<05:10, 28.24s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['C3__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - C3:  39%|███▉      | 7/18 [04:25<05:10, 28.24s/ch, 777 feats (68.1s)]tsfresh (test) - C3:  50%|█████     | 9/18 [04:25<04:33, 30.34s/ch, 777 feats (68.1s)]tsfresh (test) - C4:  50%|█████     | 9/18 [04:25<04:33, 30.34s/ch, 777 feats (68.1s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['C4__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - C4:  50%|█████     | 9/18 [05:32<04:33, 30.34s/ch, 777 feats (67.3s)]tsfresh (test) - C4:  56%|█████▌    | 10/18 [05:32<05:03, 37.90s/ch, 777 feats (67.3s)]tsfresh (test) - T4:  56%|█████▌    | 10/18 [05:32<05:03, 37.90s/ch, 777 feats (67.3s)]tsfresh (test) - T4:  56%|█████▌    | 10/18 [05:32<05:03, 37.90s/ch, cache (777 feats)]tsfresh (test) - T5:  56%|█████▌    | 10/18 [05:32<05:03, 37.90s/ch, cache (777 feats)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['T5__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - T5:  56%|█████▌    | 10/18 [06:39<05:03, 37.90s/ch, 777 feats (67.2s)]tsfresh (test) - T5:  67%|██████▋   | 12/18 [06:39<03:37, 36.32s/ch, 777 feats (67.2s)]tsfresh (test) - P3:  67%|██████▋   | 12/18 [06:39<03:37, 36.32s/ch, 777 feats (67.2s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['P3__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - P3:  67%|██████▋   | 12/18 [07:45<03:37, 36.32s/ch, 777 feats (65.6s)]tsfresh (test) - P3:  72%|███████▏  | 13/18 [07:45<03:32, 42.42s/ch, 777 feats (65.6s)]tsfresh (test) - Pz:  72%|███████▏  | 13/18 [07:45<03:32, 42.42s/ch, 777 feats (65.6s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['Pz__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - Pz:  72%|███████▏  | 13/18 [08:50<03:32, 42.42s/ch, 777 feats (65.2s)]tsfresh (test) - Pz:  78%|███████▊  | 14/18 [08:50<03:10, 47.65s/ch, 777 feats (65.2s)]tsfresh (test) - P4:  78%|███████▊  | 14/18 [08:50<03:10, 47.65s/ch, 777 feats (65.2s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['P4__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - P4:  78%|███████▊  | 14/18 [09:57<03:10, 47.65s/ch, 777 feats (66.8s)]tsfresh (test) - P4:  83%|████████▎ | 15/18 [09:57<02:37, 52.39s/ch, 777 feats (66.8s)]tsfresh (test) - T6:  83%|████████▎ | 15/18 [09:57<02:37, 52.39s/ch, 777 feats (66.8s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['T6__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - T6:  83%|████████▎ | 15/18 [11:01<02:37, 52.39s/ch, 777 feats (64.5s)]tsfresh (test) - T6:  89%|████████▉ | 16/18 [11:01<01:51, 55.55s/ch, 777 feats (64.5s)]tsfresh (test) - O1:  89%|████████▉ | 16/18 [11:01<01:51, 55.55s/ch, 777 feats (64.5s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['O1__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - O1:  89%|████████▉ | 16/18 [12:07<01:51, 55.55s/ch, 777 feats (65.7s)]tsfresh (test) - O1:  94%|█████████▍| 17/18 [12:07<00:58, 58.31s/ch, 777 feats (65.7s)]tsfresh (test) - O2:  94%|█████████▍| 17/18 [12:07<00:58, 58.31s/ch, 777 feats (65.7s)]/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/tsfresh/utilities/dataframe_functions.py:198: RuntimeWarning: The columns <ArrowStringArray>
+['O2__query_similarity_count__query_None__threshold_0.0']
+Length: 1, dtype: str did not have any finite values. Filling with zeros.
+  warnings.warn(
+tsfresh (test) - O2:  94%|█████████▍| 17/18 [13:14<00:58, 58.31s/ch, 777 feats (66.7s)]tsfresh (test) - O2: 100%|██████████| 18/18 [13:14<00:00, 60.65s/ch, 777 feats (66.7s)]tsfresh (test) - O2: 100%|██████████| 18/18 [13:14<00:00, 44.13s/ch, 777 feats (66.7s)]
+[test] concatenating 18 channels...
+[test] -> 864 windows x 13986 features
+[shapelets] tslearn unavailable (No module named 'keras'); skipping.
+
+[✓] Feature artifacts written to: /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/03_features
+================================================================

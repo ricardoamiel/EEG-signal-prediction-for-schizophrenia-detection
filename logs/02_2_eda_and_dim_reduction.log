@@ -1,0 +1,46 @@
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/2_eda_and_dim_reduction.py:171: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(x="Class", y=name, data=df, ax=ax, palette="Set2")
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/2_eda_and_dim_reduction.py:171: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(x="Class", y=name, data=df, ax=ax, palette="Set2")
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/2_eda_and_dim_reduction.py:171: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(x="Class", y=name, data=df, ax=ax, palette="Set2")
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/2_eda_and_dim_reduction.py:171: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(x="Class", y=name, data=df, ax=ax, palette="Set2")
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/sklearn/manifold/_spectral_embedding.py:325: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/.eeg/lib/python3.12/site-packages/sklearn/manifold/_spectral_embedding.py:325: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+================================================================
+ PHASE 2 - EDA & DIMENSIONALITY REDUCTION
+================================================================
+[INFO] X=(5946, 19, 1250) | classes: control=2946, patient=3000
+
+[*] Clinical EDA figures...
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/02_eda/psd_Fz.pdf
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/02_eda/grand_average.pdf
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/02_eda/connectivity.pdf
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/02_eda/band_power_boxplots.pdf
+
+[*] Dimensionality reduction (PCA->UMAP) on Top-6...
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/02_eda/pca_umap_top6.pdf
+
+[*] Spectral Clustering on Top-6 embedding...
+   [✓] /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/02_eda/spectral_clustering_top6.pdf
+[spectral] Adjusted Rand Index (clusters vs diagnosis): -0.000
+
+[✓] EDA artifacts written to: /home/germain/Documentos/Python_Projects/Series de Tiempo/proyecto-final/artifacts/02_eda
+================================================================
